@@ -1,6 +1,14 @@
 Pre-requisites
 =================
 
+# Python and Linux preparation
+
+This hands-on activity will make considerable use of Python and Linux. If you are not familiar with the Python programming language or Linux, we recommend that you study them *before* the hands-on session. Some suggested  preparatory material on the basics of Python as a scientific computing language or Linux: 
+
+- [Lectures on scientific computing with Python](https://github.com/jrjohansson/scientific-python-lectures)
+- [UNIX tutorial for beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+
+
 # Hardware requirements
 
 To participate in the tutorial we recommend that you bring your laptop. Your laptop should have at least 4GB of RAM. You will need about 15 GB of free space in your computer. 
@@ -39,10 +47,10 @@ cd fermi
 2. Clone the repository with the lesson notebook and data files:
 
 ```
-git clone <tutorial repo>UPDATE
+git clone git@github.com:black-hole-group/fermipy-tutorial.git
 ``` 
 
-You should now have a new directory called `XXXXXX` inside `fermi`.
+You should now have a new directory called `fermipy-tutorial` inside `fermi`.
 
 ## Launch a Docker container instance
 
@@ -92,14 +100,6 @@ If you interrupt the activity and want to resume it later, just make sure to lau
 
 
 
-
-
-# Python and Linux background
-
-This hands-on activity will make considerable use of Python and Linux. If you are not familiar with the Python programming language or Linux, we recommend that you study them *before* the hands-on session. Some suggested  preparatory material on the basics of Python as a scientific computing language or Linux: 
-
-- [Lectures on scientific computing with Python](https://github.com/jrjohansson/scientific-python-lectures)
-- [UNIX tutorial for beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
 
 
