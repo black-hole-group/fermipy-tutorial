@@ -23,6 +23,7 @@ Once the Docker installation is finished and the lesson files are downloaded, yo
 
 # Schedule
 
+TBD
 
 - 4:30-5:00: [Introduction, overview of activities and tools (slides)](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-hands-on-day-1)
 - 5:00-5:30: [Obtaining and preparing LAT data for your favorite source](./prepare.md)

@@ -47,7 +47,7 @@ cd fermi
 2. Clone the repository with the lesson notebook and data files:
 
 ```
-git clone git@github.com:black-hole-group/fermipy-tutorial.git
+git clone https://github.com/black-hole-group/fermipy-tutorial.git
 ``` 
 
 You should now have a new directory called `fermipy-tutorial` inside `fermi`.
