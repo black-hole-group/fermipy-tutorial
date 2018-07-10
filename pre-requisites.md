@@ -56,7 +56,7 @@ mkdir fermi
 cd fermi
 ```
 
-2. Clone the repository with the lesson notebook and data files:
+2. Clone the repository with the lesson notebook:
 
 ```
 git clone https://github.com/black-hole-group/fermipy-tutorial.git
@@ -64,10 +64,20 @@ git clone https://github.com/black-hole-group/fermipy-tutorial.git
 
 You should now have a new directory called `fermipy-tutorial` inside `fermi`.
 
+3. Download the data files with observations:
+
+```
+wget 
+```
+
 ## Launch a Docker container instance
 
 1. Launch Docker in your computer. 
-2. Switch to the `fermi` directory which contains the lesson files and where we plan to run our analysis. 
+
+TBD: find the Docker icon and click on it
+SCREENSHOT
+
+2. `cd` to the `fermi` directory which contains the lesson files and where we plan to run our analysis. 
 3. Launch a docker container instance by executing the following command:
 
 ```
