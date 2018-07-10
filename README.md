@@ -12,10 +12,8 @@ Welcome to the *Fermi* LAT hands-on tutorial on the analysis of gamma-ray observ
 The organization of this activity is the following:
 
 1. [Download and install](./pre-requisites.md) required software and data files *before the lesson*
-2. Introduction, overview of activities [(slides)](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-hands-on-day-1)
-3. Basics of maximum likelihood models: [slides](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-day-2), [jupyter notebook](./fermi_likelihood_lecture.ipynb)
-4. [Getting a flux: Likelihood analysis](./likelihood.md)
-5. [Creating a spectrum (SED)](./sed.md)
+2. Introduction, overview of activities (slides) TBD
+3. Estimating dark matter cross section from Fermi LAT observations. 
 
 # Acknowledgements
 

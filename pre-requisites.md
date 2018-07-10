@@ -84,7 +84,7 @@ If the download gets interrupted, you can resume the download from where it stop
 
 1. Launch Docker in your computer. 
 
-Click on the Docker icon to open the application. 
+Look for the Docker icon in your computer and click on it to open the application. 
 
 ![](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png "Docker icon")
 
