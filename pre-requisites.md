@@ -56,29 +56,42 @@ mkdir fermi
 cd fermi
 ```
 
-2. Clone the repository with the lesson notebook:
+2. Clone the repository with the lesson notebook.
 
 ```
 git clone https://github.com/black-hole-group/fermipy-tutorial.git
 ``` 
 
-You should now have a new directory called `fermipy-tutorial` inside `fermi`.
+You should now have a new directory called `fermi/fermipy-tutorial`.
 
-3. Download the data files with observations:
+3. Download the data files with observations.
+
+Issue the following commands:
 
 ```
-wget 
+mkdir ./fermipy-tutorial/data
+wget -O ./fermipy-tutorial/data/fermi-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/fermi-data.tar.bz2?dl=0
+tar -xvjf ./fermipy-tutorial/data/fermi-data.tar.bz2 -C ./fermipy-tutorial/data
 ```
+
+File size: 828 MB. MD5 checksum: 149b2e7d499a78f18bec22ad40fd3d98
+
+If the download gets interrupted, you can resume the download from where it stopped:
+
+    wget -c -O ./fermipy-tutorial/data/fermi-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/fermi-data.tar.bz2?dl=0
 
 ## Launch a Docker container instance
 
 1. Launch Docker in your computer. 
 
-TBD: find the Docker icon and click on it
-SCREENSHOT
+Click on the Docker icon to open the application. 
+
+![](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png "Docker icon")
 
 2. `cd` to the `fermi` directory which contains the lesson files and where we plan to run our analysis. 
-3. Launch a docker container instance by executing the following command:
+3. Launch a docker container instance.
+
+Run the following command in a new terminal:
 
 ```
 docker run -it --rm -p 8888:8888 -v $PWD:/workdir -w /workdir fermipy/fermipy
