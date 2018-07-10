@@ -15,17 +15,19 @@ The organization of this activity is the following:
 2. Introduction, overview of activities (slides) TBD
 3. Estimating dark matter cross section from Fermi LAT observations. 
 
+
+# Authors / contact 
+
+This lesson was developed by the following members of the [Black Hole Group](https://blackholegroup.org) at Universidade de Sao Paulo:
+
+- Fabio Cafardo
+- Raniere de Menezes
+- [Rodrigo Nemmen](https://rodrigonemmen.com/)
+
+If you want to show your gratitude, you can get us a beer after the lesson is done.  :)
+
 # Acknowledgements
 
-- LAT Collaboration, particularly Matt Wood and Jeremy Perkins for the previous work on the jupyter notebooks, [analysis threads](https://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/)) and for creating the Docker image
+The Fermi LAT Collaboration, particularly Matt Wood and Jeremy Perkins for the previous work on the jupyter notebooks, [analysis threads](https://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/)) and for creating the awesome Docker image
 
 # TODO
-
-
-# Contact 
-
-[`rodrigo.nemmen -> iag usp br`](http://rodrigonemmen.com/contact)
-
-[Author's web page](https://rodrigonemmen.com/)
-
-Twitter: [@nemmen](https://twitter.com/nemmen)
