@@ -66,7 +66,7 @@ You should now have a new directory called `fermi/fermipy-tutorial`.
 
 3. Download the data files with observations.
 
-Issue the following commands:
+Issue the following commands to download the file `fermi-data.tar.bz2` and unpack it. This file contains all the observations.
 
 ```
 mkdir ./fermipy-tutorial/data
@@ -74,11 +74,17 @@ wget -O ./fermipy-tutorial/data/fermi-data.tar.bz2 https://www.dropbox.com/s/g6q
 tar -xvjf ./fermipy-tutorial/data/fermi-data.tar.bz2 -C ./fermipy-tutorial/data
 ```
 
-File size: 828 MB. MD5 checksum: 149b2e7d499a78f18bec22ad40fd3d98
-
 If the download gets interrupted, you can resume the download from where it stopped:
 
     wget -c -O ./fermipy-tutorial/data/fermi-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/fermi-data.tar.bz2?dl=0
+
+4. (_optional_) Check file integrity.
+
+If you want to check the file integrity, you can use the command
+
+    md5sum fermipy-tutorial/data/fermi-data.tar.bz2
+
+(replace `md5sum` with `md5` if using a Mac). This command will spit a string. The string should match this one:  149b2e7d499a78f18bec22ad40fd3d98. If they are different, your file was corrupted during the download.
 
 ## Launch a Docker container instance
 
