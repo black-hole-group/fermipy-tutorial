@@ -2,45 +2,26 @@ Fermi LAT data analysis: Hands on session
 ==============================================
 
 **⚠️Please [download the files](./pre-requisites.md) before the tutorial**  
-We ask the participants of the school to not leave the downloads for the last minute. The required files involve over 2GB of downloads. This will overload the wifi network at the school if everybody does this at the same time.   
+We ask the participants of the school to download all required files for this lesson *beforehand*. The required files involve >2GB of downloads. This will overload the wifi network at the school if everybody downloads at the same time.   
 *You will not be able to follow the activity without downloading the files*
 
 # Introduction
 
-Welcome to the hands-on tutorial on the analysis of *Fermi* LAT gamma-ray observations. This activity has a total duration of 4 hours. Given the somewhat short duration of these sessions, we will not have time to get into the details of all the fascinating science behind the analysis. The emphasis is on getting started on the analysis of Fermi LAT observations as soon as possible, such that you will be able to perform your own analysis in the future if desired. 
+Welcome to the *Fermi* LAT hands-on tutorial on the analysis of gamma-ray observations. This activity has a total duration of 4 hours. The emphasis here is on getting the students started on the analysis of *Fermi* LAT observations as soon as possible, such that you will be able to perform analysis by yourself in the future if you wish so. 
 
-# Install analysis software and lesson files
+The organization of this activity is the following:
 
-In order to proceed with the tutorial, you will need a working installation of:
-
-- Fermi Science Tools
-- `Fermipy` Python package 
-- Jupyter notebook and supporting data files 
-
-For your convenience, we prepared this activity such that with just a few commands everything can be easily installed. Please visit [pre-requisites](./pre-requisites.md) for the instructions.
-
-Once the Docker installation is finished and the lesson files are downloaded, you can move forward with the tutorial.
-
-# Schedule
-
-TBD
-
-- 4:30-5:00: [Introduction, overview of activities and tools (slides)](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-hands-on-day-1)
-- 5:00-5:30: [Obtaining and preparing LAT data for your favorite source](./prepare.md)
-- 5:30-6:30: [Exploring LAT data: Plotting the counts map](./explore.md)
-
-
-- 4:30-5:00: Overview of activity, basic theory of spectral modeling: [slides](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-day-2), [jupyter notebook](./fermi_likelihood_lecture.ipynb)
-- 5:00-5:30: [Getting a flux: Likelihood analysis](./likelihood.md)
-- 5:30-6:30: [Creating a spectrum (SED)](./sed.md)
-- Bonus: [Producing a light-curve](./lc.md)
-
+1. [Download and install](./pre-requisites.md) required software and data files
+2. 2:30-3:00: Introduction, overview of activities [(slides)](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-hands-on-day-1)
+3. 3:00-3:30: Basics of maximum likelihood models: [slides](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-day-2), [jupyter notebook](./fermi_likelihood_lecture.ipynb)
+4. 5:00-5:30: [Getting a flux: Likelihood analysis](./likelihood.md)
+5. 5:30-6:30: [Creating a spectrum (SED)](./sed.md)
 
 # Acknowledgements
 
-- LAT Collaboration, particularly Matt Wood and Jeremy Perkins: for inspiration on the activities (very helpful [analysis threads](https://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/)) and the idea of the VM
+- LAT Collaboration, particularly Matt Wood and Jeremy Perkins for the previous work on the jupyter notebooks, [analysis threads](https://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/)) and for creating the Docker image
 
-# TODO (future)
+# TODO
 
 
 # Contact 

@@ -3,19 +3,31 @@ Pre-requisites
 
 # Python and Linux preparation
 
-This hands-on activity will make considerable use of Python and Linux. If you are not familiar with the Python programming language or Linux, we recommend that you study them *before* the hands-on session. Some suggested  preparatory material on the basics of Python as a scientific computing language or Linux: 
+This hands-on activity will make considerable use of Python, Jupyter Notebook and Linux. If you are not familiar with the Python programming language, Jupyter or Linux, we recommend that you study them *before* the hands-on session. 
+
+Some suggested  preparatory material on the basics of Python as a scientific computing language or Linux: 
 
 - [Lectures on scientific computing with Python](https://github.com/jrjohansson/scientific-python-lectures)
 - [UNIX tutorial for beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+- [Getting started with Jupyter Notebook](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46)
 
 
 # Hardware requirements
 
-To participate in the tutorial we recommend that you bring your laptop. Your laptop should have at least 4GB of RAM. You will need about 15 GB of free space in your computer. 
+To participate in the tutorial we recommend that you bring your laptop. The minimum hardware requirements for are: 
+
+- at least 4GB of RAM 
+- ~10 GB of free disk space
 
 # Installation instructions
 
-All the analysis software and data files required for this hands-on activity are already installed in a ready-to-use, self-contained Docker image. The Docker image contains the Fermi `ScienceTools` and `Fermipy` and should run on Windows, Linux and MacOS. 
+In order to proceed with the lesson, you will need a working installation of:
+
+- Fermi Science Tools
+- `Fermipy` Python package 
+- Lesson supporting files: Jupyter notebook and observations 
+
+Fortunately, all the analysis software and data files required for the lesson are conveniently pre-installed in a ready-to-use, self-contained Docker image. The Docker image should run on Windows, Linux and MacOS. 
 
 We recommend that you start downloading early the files, given their large file size. *Please do not download large files during the tutorial or the WIFI network will overload*. 
 
