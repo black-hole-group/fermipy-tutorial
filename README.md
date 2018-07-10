@@ -11,11 +11,11 @@ Welcome to the *Fermi* LAT hands-on tutorial on the analysis of gamma-ray observ
 
 The organization of this activity is the following:
 
-1. [Download and install](./pre-requisites.md) required software and data files
-2. 2:30-3:00: Introduction, overview of activities [(slides)](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-hands-on-day-1)
-3. 3:00-3:30: Basics of maximum likelihood models: [slides](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-day-2), [jupyter notebook](./fermi_likelihood_lecture.ipynb)
-4. 5:00-5:30: [Getting a flux: Likelihood analysis](./likelihood.md)
-5. 5:30-6:30: [Creating a spectrum (SED)](./sed.md)
+1. [Download and install](./pre-requisites.md) required software and data files *before the lesson*
+2. Introduction, overview of activities [(slides)](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-hands-on-day-1)
+3. Basics of maximum likelihood models: [slides](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-day-2), [jupyter notebook](./fermi_likelihood_lecture.ipynb)
+4. [Getting a flux: Likelihood analysis](./likelihood.md)
+5. [Creating a spectrum (SED)](./sed.md)
 
 # Acknowledgements
 

@@ -23,8 +23,8 @@ To participate in the tutorial we recommend that you bring your laptop. The mini
 
 In order to proceed with the lesson, you will need a working installation of:
 
-- Fermi Science Tools
-- `Fermipy` Python package 
+- [Fermi Science Tools](https://fermi.gsfc.nasa.gov/ssc/data/analysis/software/)
+- [`Fermipy`](https://fermipy.readthedocs.io/en/latest/) Python package 
 - Lesson supporting files: Jupyter notebook and observations 
 
 Fortunately, all the analysis software and data files required for the lesson are conveniently pre-installed in a ready-to-use, self-contained Docker image. The Docker image should run on Windows, Linux and MacOS. 
@@ -68,13 +68,13 @@ You should now have a new directory called `fermipy-tutorial` inside `fermi`.
 
 1. Launch Docker in your computer. 
 2. Switch to the `fermi` directory which contains the lesson files and where we plan to run our analysis. 
-3. Execute the following command to launch a docker container instance:
+3. Launch a docker container instance by executing the following command:
 
 ```
 docker run -it --rm -p 8888:8888 -v $PWD:/workdir -w /workdir fermipy/fermipy
 ```
 
-This will start an Jupyter notebook server that will be attached to port 8888. The `-v $PWD:/workdir` argument mounts the current directory to the working area of the container. Once you start the server it will print a URL similar to the following one:
+This will start a Jupyter notebook server that will be attached to port 8888. The `-v $PWD:/workdir` argument mounts the current directory to the working area of the container. Once you start the server it will print a URL similar to the following one:
 
 ```
     Copy/paste this URL into your browser when you connect for the first time,
@@ -104,18 +104,9 @@ docker run -it --rm -v $PWD:/workdir -w /workdir fermipy/fermipy /bin/bash
 
 - - - 
 
-Now you can proceed and follow the instructions for the tutorial.
+If you interrupt the activity and want to resume it later, just make sure to launch the Docker container instance inside the `fermi` directory. All your progress will be saved there.
 
-If you interrupt the activity and want to resume it later, just make sure to launch the Docker container instance inside the `fermi` directory.
-
-
+Now you can proceed with the lesson and move on to the [overview of activities](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-hands-on-day-1).
 
 
 
-
-
-
-
-# Data files for observations
-
-All the data files required for the tutorial are pre-installed in the VM. However, if you are *not* using the VM to run the activity, you can download the data files [here](https://figshare.com/articles/Fermi_LAT_Hands-on_activity_Sao_Paulo_CTA_School_2017/5027513).
