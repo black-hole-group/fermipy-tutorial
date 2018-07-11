@@ -84,15 +84,14 @@ If you want to check the file integrity, you can use the command
 
     md5sum fermipy-tutorial/data/fermi-data.tar.bz2
 
-(replace `md5sum` with `md5` if using a Mac). This command will spit a string. The string should match this one:  149b2e7d499a78f18bec22ad40fd3d98. If they are different, your file was corrupted during the download.
+(replace `md5sum` with `md5` if using a Mac). This command will spit a string. The string should match this one:  149b2e7d499a78f18bec22ad40fd3d98. If they are different, your file was corrupted during the download and you need to restart the download.
 
 ## 4. Launch a Docker container instance
 
 i. Launch Docker in your computer. 
 
-Look for the Docker icon in your computer and click on it to open the application. 
-
-![](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png "Docker icon")
+- Mac/Windows: Look for the Docker icon in your computer and click on it to open the application. ![](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png "Docker icon")
+- Linux: the Docker service should already be running in the background, so no action required.
 
 ii. `cd` to the `fermi` directory which contains the lesson files and where we plan to run our analysis. 
 iii. Launch a docker container instance.
