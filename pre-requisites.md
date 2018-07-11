@@ -31,15 +31,15 @@ Fortunately, all the analysis software and data files required for the lesson ar
 
 We recommend that you start downloading early the files, given their large file size. *Please do not download large files during the tutorial or the WIFI network will overload*. 
 
-## Install Docker
+## 1. Install Docker
 
-Think of [Docker](https://www.docker.com) as a convenient virtual machine environment. Docker has been getting very popular lately because it allows developers to ship images with a lot of pre-installed software. If you are interested in learning what Docker images are available, browse the [Docker Store](https://store.docker.com). 
+[Docker](https://www.docker.com) is a convenient virtual machine environment which has been getting very popular lately because it allows developers to ship images conveniently with pre-installed software. If you are interested, browse the [Docker Store](https://store.docker.com) to learn what kind of Docker images are available. Thanks to Docker, we will not need to worry about installing the Linux environment and Fermi ScienceTools for our lesson—there is an image pre-built with everything we need! 
 
-Thanks to Docker, we will not need to worry about installing the necessary Linux environment and the Fermi ScienceTools for our lesson—there is an image pre-built with everything we need! 
+To get started you should first [install the Community Edition of Docker by following these instructions](https://www.docker.com/community-edition). 
 
-To get started you should first install [Docker](https://www.docker.com/community-edition) (you want the Community Edition). Once Docker is installed in your laptop, you should...
+Once Docker is installed in your laptop, you should...
 
-## Get the `Fermipy` Docker image
+## 2. Get the `Fermipy` Docker image
 
 Open a terminal and issue the command
 
@@ -47,16 +47,16 @@ Open a terminal and issue the command
 
 This should take a while because >2GB of software will be downloaded and installed.
 
-## Download the supporting files for the lesson
+## 3. Download the supporting files for the lesson
 
-1. Create a new directory somewhere in your machine, let's say `fermi`:  
+i. Create a new directory somewhere in your machine, let's say `fermi`:  
 
 ```  
 mkdir fermi
 cd fermi
 ```
 
-2. Clone the repository with the lesson notebook.
+ii. Clone the repository with the lesson notebook.
 
 ```
 git clone https://github.com/black-hole-group/fermipy-tutorial.git
@@ -64,9 +64,9 @@ git clone https://github.com/black-hole-group/fermipy-tutorial.git
 
 You should now have a new directory called `fermi/fermipy-tutorial`.
 
-3. Download the data files with observations.
+iii. Download the data files with observations.
 
-Issue the following commands to download the file `fermi-data.tar.bz2` and unpack it. This file contains all the observations.
+Issue the following commands to download the file `fermi-data.tar.bz2` and unpack it. This file contains all the observations (828 MB).
 
 ```
 mkdir ./fermipy-tutorial/data
@@ -78,7 +78,7 @@ If the download gets interrupted, you can resume the download from where it stop
 
     wget -c -O ./fermipy-tutorial/data/fermi-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/fermi-data.tar.bz2?dl=0
 
-4. (_optional_) Check file integrity.
+iv. (_optional_) Check file integrity.
 
 If you want to check the file integrity, you can use the command
 
@@ -86,16 +86,16 @@ If you want to check the file integrity, you can use the command
 
 (replace `md5sum` with `md5` if using a Mac). This command will spit a string. The string should match this one:  149b2e7d499a78f18bec22ad40fd3d98. If they are different, your file was corrupted during the download.
 
-## Launch a Docker container instance
+## 4. Launch a Docker container instance
 
-1. Launch Docker in your computer. 
+i. Launch Docker in your computer. 
 
 Look for the Docker icon in your computer and click on it to open the application. 
 
 ![](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png "Docker icon")
 
-2. `cd` to the `fermi` directory which contains the lesson files and where we plan to run our analysis. 
-3. Launch a docker container instance.
+ii. `cd` to the `fermi` directory which contains the lesson files and where we plan to run our analysis. 
+iii. Launch a docker container instance.
 
 Run the following command in a new terminal:
 
@@ -111,7 +111,7 @@ This will start a Jupyter notebook server that will be attached to port 8888. Th
         http://721f57bdddfd:8888/?token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5&token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5
 ```
 
-4. Copy and paste the address above in your web browser, and replace the string between `http://` and `:8888` with `localhost`; in our case, we would use the following address in our browser (your address will be different):
+iv. Copy and paste the address above in your web browser, and replace the string between `http://` and `:8888` with `localhost`; in our case, we would use the following address in our browser (your address will be different):
 
 ```     
 http://localhost:8888/?token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5&token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5
