@@ -41,7 +41,7 @@ Once Docker is installed in your laptop, you should...
 
 Open a terminal and issue the command
 
-    docker pull fermipy/fermipy
+    sudo docker pull fermipy/fermipy
 
 This should take a while because >2GB of software will be downloaded and installed.
 
@@ -88,16 +88,17 @@ If you want to check the file integrity, you can use the command
 
 i. Launch Docker in your computer. 
 
-- Mac/Windows: Look for the Docker icon in your computer and click on it to open the application. ![](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png "Docker icon")
 - Linux: the Docker service should already be running in the background, so no action required.
+- Mac/Windows: Look for the Docker icon in your computer and click on it to open the application. ![](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png "Docker icon")
 
 ii. `cd` to the `fermi` directory which contains the lesson files and where we plan to run our analysis. 
+
 iii. Launch a docker container instance.
 
 Run the following command in a new terminal:
 
 ```
-docker run -it --rm -p 8888:8888 -v $PWD:/workdir -w /workdir fermipy/fermipy
+sudo docker run -it --rm -p 8888:8888 -v $PWD:/workdir -w /workdir fermipy/fermipy
 ```
 
 This will start a Jupyter notebook server that will be attached to port 8888. The `-v $PWD:/workdir` argument mounts the current directory to the working area of the container. Once you start the server it will print a URL similar to the following one:
@@ -121,9 +122,9 @@ Your browser should now display something similar to this:
 Note that the same docker image may be used to launch python, ipython, or a bash shell by passing the command as an argument to docker run:
 
 ```
-docker run -it --rm -v $PWD:/workdir -w /workdir fermipy/fermipy ipython
-docker run -it --rm -v $PWD:/workdir -w /workdir fermipy/fermipy python
-docker run -it --rm -v $PWD:/workdir -w /workdir fermipy/fermipy /bin/bash
+sudo docker run -it --rm -v $PWD:/workdir -w /workdir fermipy/fermipy ipython
+sudo docker run -it --rm -v $PWD:/workdir -w /workdir fermipy/fermipy python
+sudo docker run -it --rm -v $PWD:/workdir -w /workdir fermipy/fermipy /bin/bash
 ```
 
 - - - 
