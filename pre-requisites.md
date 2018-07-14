@@ -45,6 +45,8 @@ Open a terminal and issue the command
 
 This should take a while because >2GB of software will be downloaded and installed.
 
+> Pro tip: if you add your user to the `docker` group, you do not need to use `sudo` to run Docker.
+
 ## 3. Download the supporting files for the lesson
 
 i. Create a new directory somewhere in your machine, let's say `fermi`:  
