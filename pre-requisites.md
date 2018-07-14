@@ -116,9 +116,7 @@ iv. Copy and paste the address above in your web browser, and replace the string
 http://localhost:8888/?token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5&token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5
 ```
 
-Your browser should now display something similar to this:
-
-![](./Screenshot-jupyter.png "Web browser after successful launching of Jupyter Notebook from Docker instance")
+Your browser should now display something similar to this: ![](./Screenshot-jupyter.png "Web browser after successful launching of Jupyter Notebook from Docker instance")
 
 Note that the same docker image may be used to launch python, ipython, or a bash shell by passing the command as an argument to docker run:
 
