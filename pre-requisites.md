@@ -21,7 +21,9 @@ To participate in the tutorial we recommend that you bring your laptop. The mini
 
 # Installation instructions
 
-In order to proceed with the lesson, you will need a working installation of several softwares. Fortunately, all the analysis software and data files required for the lesson are conveniently pre-installed in a ready-to-use, self-contained Docker image. The Docker image should run on Windows, Linux and MacOS. The software contained in the Docker image are:
+In order to proceed with the lesson, you will need a working installation of several softwares. Fortunately, all the analysis software and data files required for the lesson are conveniently pre-installed in a ready-to-use, self-contained Docker image (see [step 1](#1-install-docker) below). The Docker image should run on Windows, Linux and MacOS. 
+
+The software already contained in the Docker image are:
 
 - [Fermi Science Tools](https://fermi.gsfc.nasa.gov/ssc/data/analysis/software/)
 - [`Fermipy`](https://fermipy.readthedocs.io/en/latest/) Python package 
