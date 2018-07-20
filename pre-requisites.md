@@ -133,7 +133,4 @@ sudo docker run -it --rm -v $PWD:/workdir -w /workdir fermipy/fermipy /bin/bash
 
 If you interrupt the activity and want to resume it later, just make sure to launch the Docker container instance inside the `fermi` directory. All your progress will be saved there.
 
-Now you can proceed with the lesson and move on to the [overview of activities](https://speakerdeck.com/rsnemmen/analysis-of-fermi-lat-data-hands-on-day-1).
-
-
-
+Now you can proceed with the lesson and move on to the introduction to the hands-on activities (TBD).

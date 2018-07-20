@@ -7,14 +7,13 @@ We ask the participants of the school to download all required files for this le
 
 # Introduction
 
-Welcome to the *Fermi* LAT hands-on tutorial on the analysis of gamma-ray observations. This activity has a total duration of 4 hours. The emphasis here is on getting the students started on the analysis of *Fermi* LAT observations as soon as possible, such that you will be able to perform analysis by yourself in the future if you wish so. 
+Welcome to the *Fermi* LAT hands-on tutorial on the analysis of gamma-ray observations. Here, we will learn how to analyze gamma-ray data for a dwarf galaxy, do a simple estimate of the dark matter cross section and reproduce the analysis described in [Ackermann et al. (2015)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.231301). 
 
-The organization of this activity is the following:
+This activity has a total duration of about 4 hours and is organized as follows:
 
 1. [Download and install](./pre-requisites.md) required software and data files *before the lesson*
 2. Introduction, overview of activities (slides) TBD
 3. Estimating dark matter cross section from Fermi LAT observations. 
-
 
 # Authors / contact 
 
@@ -28,6 +27,6 @@ If you want to show your gratitude, you can get us a beer after the lesson is do
 
 # Acknowledgements
 
-The Fermi LAT Collaboration, particularly Matt Wood and Jeremy Perkins for the previous work on the jupyter notebooks, [analysis threads](https://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/)) and for creating the awesome Docker image
+The Fermi LAT Collaboration—particularly Matt Wood and Jeremy Perkins—for developing `FermiPy`, some Jupyter notebooks which served as inspiration for this activity and for creating the extremely convenient Docker image.
 
 # TODO
