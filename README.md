@@ -12,8 +12,8 @@ Welcome to the *Fermi* LAT hands-on tutorial on the analysis of gamma-ray observ
 This activity has a total duration of about 4 hours and is organized as follows:
 
 1. [Download and install](./pre-requisites.md) required software and data files *before the lesson*
-2. Introduction, overview of activities (slides) TBD
-3. Estimating dark matter cross section from Fermi LAT observations. 
+2. Overview of Fermi Gamma-ray Telescope ([slides](https://speakerdeck.com/rsnemmen/overview-of-fermi-gamma-ray-telescope))
+3. Hands-on activity: Estimating dark matter cross section from Fermi LAT observations
 
 # Authors / contact 
 
