@@ -50,6 +50,7 @@ This should take a while because >2GB of software will be downloaded and install
 
 ## 3. Download the supporting files for the lesson
 
+You will need `wget` in order to proceed. 
 
 
 ## 4. Launch a Docker container instance
