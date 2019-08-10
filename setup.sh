@@ -1,29 +1,28 @@
-# i. Create a new directory somewhere in your machine, let's say `fermi`:  
-
+#!/bin/sh
+# Create a new directory somewhere in your machine, let's say `fermi`:  
 mkdir fermi
 cd fermi
+echo "Created fermi dir"
 
-ii. Clone the repository with the lesson notebook.
-
-```
+# Clone the repository with the lesson notebook.
 git clone https://github.com/black-hole-group/fermipy-tutorial.git
-``` 
+echo "Downloaded lesson files from github"
+# You should now have a new directory called `fermi/fermipy-tutorial`.
 
-You should now have a new directory called `fermi/fermipy-tutorial`.
+# Download the data files with observations.
+# These file contain all the observations (about 2GB).
+# DM lesson data
+mkdir -p ./fermipy-tutorial/data/DM
+wget -O ./fermipy-tutorial/data/dm-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/dm-data.tar.bz2?dl=0
+tar -xvjf ./fermipy-tutorial/data/dm-data.tar.bz2 -C ./fermipy-tutorial/data/DM
+# blazar lesson data
+mkdir -p ./fermipy-tutorial/data/blazar
+wget -O ./fermipy-tutorial/data/blazar-data.tar.bz2 https://www.dropbox.com/s/96t6rbl9gguhz9x/blazar-data.tar.bz2?dl=0
+tar -xvjf ./fermipy-tutorial/data/blazar-data.tar.bz2 -C ./fermipy-tutorial/data/blazar
 
-iii. Download the data files with observations.
-
-Issue the following commands to download the file `fermi-data.tar.bz2` and unpack it. This file contains all the observations (828 MB).
-
-```
-mkdir ./fermipy-tutorial/data
-wget -O ./fermipy-tutorial/data/dm-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/fermi-data.tar.bz2?dl=0
-tar -xvjf ./fermipy-tutorial/data/fermi-data.tar.bz2 -C ./fermipy-tutorial/data
-```
-
-If the download gets interrupted, you can resume the download from where it stopped:
-
-    wget -c -O ./fermipy-tutorial/data/fermi-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/fermi-data.tar.bz2?dl=0
+# If the download gets interrupted, you can resume the download from where it stopped:
+#
+#    wget -c -O ./fermipy-tutorial/data/fermi-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/fermi-data.tar.bz2?dl=0
 
 iv. (_optional_) Check file integrity.
 
