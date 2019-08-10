@@ -1,0 +1,27 @@
+data:
+  evfile : Blazar.lst
+  scfile : data/L190726155320A894EC7048_SC00.fits
+
+binning:
+  roiwidth   : 10.0
+  binsz      : 0.1
+  binsperdec : 8
+
+selection :
+  emin : 100
+  emax : 300000
+  zmax    : 90
+  evclass : 128
+  evtype  : 3
+  target : '3FGL J0509.4+0541'
+
+gtlike:
+  edisp : True
+  irfs : 'P8R2_SOURCE_V6'
+  edisp_disable : ['isodiff','galdiff']
+
+model:
+  src_roiwidth : 15.0
+  galdiff  : '/workdir/notebooks/data/gll_iem_v06.fits'
+  isodiff  : '/workdir/notebooks/data/iso_P8R2_SOURCE_V6_v06.txt'
+  catalogs : '/workdir/notebooks/data/gll_psc_v16.xml'
