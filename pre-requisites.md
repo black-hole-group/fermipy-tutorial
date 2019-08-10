@@ -42,7 +42,7 @@ Once Docker is installed in your laptop, you should...
 
 Open a terminal and issue the command
 
-    sudo docker pull fermipy/fermipy
+    sudo docker pull fermipy/fermipy:11-05-02
 
 This should take a while because >2GB of software will be downloaded and installed.
 
@@ -101,21 +101,8 @@ iii. Launch a docker container instance.
 Run the following command in a new terminal:
 
 ```
-sudo docker run -it --rm -p 8888:8888 -v $PWD:/workdir -w /workdir fermipy/fermipy
+sudo docker run -it --rm -p 8888:8888 -v $PWD:/workdir -w /workdir fermipy/fermipy:11-05-02
 ```
-
----
-**NOTE**
-
-If you get an error message that ends with `ImportError: No module named ipaddress` when running the command above, then you need to downgrade your Fermipy version with the command
-
-    sudo docker pull fermipy/fermipy:11-05-02
-
-Then use the following command to launch jupyter notebook:
-
-    sudo docker run -it --rm -p 8888:8888 -v $PWD:/workdir -w /workdir fermipy/fermipy:11-05-02
-
----
 
 This will start a Jupyter notebook server that will be attached to port 8888. The `-v $PWD:/workdir` argument mounts the current directory to the working area of the container. Once you start the server it will print a URL similar to the following one:
 
