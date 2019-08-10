@@ -50,8 +50,12 @@ This should take a while because >2GB of software will be downloaded and install
 
 ## 3. Download the supporting files for the lesson
 
-You will need `wget` in order to proceed. 
+You will need `wget` installed in order to proceed. Issue the following commands in the terminal to download all supporting data files for the lesson:
 
+    wget -O install.sh https://gist.github.com/rsnemmen/f97823e466583d7d1101b5dd579cda8c/raw
+    sh install.sh
+
+After the command is done, you should have all files which are necessary for the lesson available locally in your machine.
 
 ## 4. Launch a Docker container instance
 
