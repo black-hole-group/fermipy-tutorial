@@ -10,7 +10,7 @@ We ask the participants of the school to download all required files for this le
 Welcome to the *Fermi* LAT hands-on tutorial on the analysis of gamma-ray observations. Here, we will learn how to analyze gamma-ray observations for the following targets:
 
 1. **Dark matter:** we will analyze the photons coming from the direction of a dwarf galaxy, do a simple estimate of the dark matter cross section and reproduce the analysis described in [Ackermann et al. (2015)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.231301). 
-2. **Blazar:** we will analyze photons emitted by the blazar TXS 0506+056—the first astrophysical source from which [a gamma-ray flare was detected coinciding with a high-energy neutrino](https://science.sciencemag.org/content/361/6398/eaat1378?_ga=2.130451464.622421256.1563993155-1416707261.1563993155). We will [WHAT? SPECTRUM? LIGHT CURVE?] and reproduce the analysis described in [WHICH PAPER?](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.231301). 
+2. **Blazar:** we will analyze photons emitted by the blazar TXS 0506+056—the first astrophysical source from which [a gamma-ray flare was detected coinciding with a high-energy neutrino](https://science.sciencemag.org/content/361/6398/eaat1378?_ga=2.130451464.622421256.1563993155-1416707261.1563993155). We will create an SED and a light curve for this source in the period close to the neutrino detection. We will reproduce some of the analysis described in [The IceCube Colabortion et al. 2018](https://arxiv.org/pdf/1807.08816.pdf). 
 
 This activity has a total duration of about 4 hours and is organized as follows:
 
