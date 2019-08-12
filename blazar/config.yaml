@@ -1,6 +1,6 @@
 data:
   evfile : Blazar.lst
-  scfile : data/L190726155320A894EC7048_SC00.fits
+  scfile : /workdir/fermi/fermipy-tutorial/data/blazar/L190726155320A894EC7048_SC00.fits
 
 binning:
   roiwidth   : 10.0
@@ -22,6 +22,6 @@ gtlike:
 
 model:
   src_roiwidth : 15.0
-  galdiff  : '/workdir/notebooks/data/gll_iem_v06.fits'
-  isodiff  : '/workdir/notebooks/data/iso_P8R2_SOURCE_V6_v06.txt'
-  catalogs : '/workdir/notebooks/data/gll_psc_v16.xml'
+  galdiff  : '/workdir/fermi/fermipy-tutorial/data/blazar/gll_iem_v06.fits'
+  isodiff  : '/workdir/fermi/fermipy-tutorial/data/blazar/iso_P8R2_SOURCE_V6_v06.txt'
+  catalogs : '/workdir/fermi/fermipy-tutorial/data/blazar/gll_psc_v16.xml'
