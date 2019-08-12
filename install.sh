@@ -3,24 +3,36 @@
 mkdir fermi
 cd fermi
 echo "Created fermi dir"
+echo
 
 # Clone the repository with the lesson notebook.
 git clone https://github.com/black-hole-group/fermipy-tutorial.git
 echo "Downloaded lesson files from github"
+echo
 # You should now have a new directory called `fermi/fermipy-tutorial`.
 
 # Download the data files with observations.
 # These file contain all the observations (about 2GB).
-# DM lesson data
-mkdir -p ./fermipy-tutorial/data/DM
-wget -O ./fermipy-tutorial/data/dm-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/dm-data.tar.bz2?dl=0
-tar -xvjf ./fermipy-tutorial/data/dm-data.tar.bz2 -C ./fermipy-tutorial/data/DM
-echo "Downloaded dark matter files"
+# DM lesson data UNCOMMENT THIS EVENTUALLY
+#mkdir -p ./fermipy-tutorial/data/DM
+#wget -O ./fermipy-tutorial/data/dm-data.tar.bz2 https://www.dropbox.com/s/g6qbj7es0v9djv5/dm-data.tar.bz2?dl=0
+#tar -xvjf ./fermipy-tutorial/data/dm-data.tar.bz2 -C ./fermipy-tutorial/data/DM
+#echo "Downloaded dark matter files"
+#echo
 # blazar lesson data
+#mkdir -p ./fermipy-tutorial/data/blazar
+#wget -O ./fermipy-tutorial/data/blazar-data.tar.bz2 https://www.dropbox.com/s/96t6rbl9gguhz9x/blazar-data.tar.bz2?dl=0
+#tar -xvjf ./fermipy-tutorial/data/blazar-data.tar.bz2 -C ./fermipy-tutorial/data/blazar
+#echo "Downloaded blazar files"
+# blazar lesson data, Fabio's conventions for file locations // must organize it better!
+mkdir -p ./fermipy-tutorial/blazar
 mkdir -p ./fermipy-tutorial/data/blazar
-wget -O ./fermipy-tutorial/data/blazar-data.tar.bz2 https://www.dropbox.com/s/96t6rbl9gguhz9x/blazar-data.tar.bz2?dl=0
-tar -xvjf ./fermipy-tutorial/data/blazar-data.tar.bz2 -C ./fermipy-tutorial/data/blazar
+wget -O ./fermipy-tutorial/data/blazar.tar.bz2 https://www.dropbox.com/s/9uk4kbxymaj54ks/blazar.tar.bz2?dl=0
+tar -xvjf ./fermipy-tutorial/data/blazar.tar.bz2 -C ./fermipy-tutorial/blazar
+wget -O ./fermipy-tutorial/data/data_blazar.tar.bz2 https://www.dropbox.com/s/uom4dwtquf7uikp/data_blazar.tar.bz2?dl=0
+tar -xvjf ./fermipy-tutorial/data/data_blazar.tar.bz2 -C ./fermipy-tutorial/data/blazar
 echo "Downloaded blazar files"
+
 
 echo "Done! :) "
 
