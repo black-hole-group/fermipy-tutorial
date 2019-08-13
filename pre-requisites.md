@@ -12,16 +12,18 @@ Some suggested  preparatory material on the basics of Python as a scientific com
 - [Getting started with Jupyter Notebook](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46)
 
 
-# Hardware requirements
+# Requirements
 
 To participate in the tutorial we recommend that you bring your laptop. The minimum hardware requirements for are: 
 
 - at least 4GB of RAM 
 - ~10 GB of free disk space
 
+We recommend Linux or MacOS. This tutorial was not tested on a windows machine, so we cannot guarantee it will work on windows.
+
 # Installation instructions
 
-In order to proceed with the lesson, you will need a working installation of several softwares. Fortunately, all the analysis software and data files required for the lesson are conveniently pre-installed in a ready-to-use, self-contained Docker image (see [step 1](#1-install-docker) below). The Docker image should run on Windows, Linux and MacOS. 
+In order to proceed with the lesson, you will need a working installation of several packages. Fortunately, all the analysis software and data files required for the lesson are conveniently pre-installed in a ready-to-use, self-contained Docker image (see [step 1](#1-install-docker) below). The Docker image should run on Windows, Linux and MacOS. 
 
 The software already contained in the Docker image are:
 
