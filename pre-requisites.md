@@ -34,7 +34,7 @@ We recommend that you start downloading early the files, given their large file 
 
 [Docker](https://www.docker.com) is a convenient virtual machine environment which has been getting very popular lately because it allows developers to ship images conveniently with pre-installed software. If you are interested, browse the [Docker Store](https://store.docker.com) to learn what kind of Docker images are available. Thanks to Docker, we will not need to worry about installing the Linux environment and Fermi ScienceTools for our lesson—there is an image pre-built with everything we need! 
 
-To get started you should first [install the Community Edition of Docker by following these instructions](https://www.docker.com/community-edition). 
+To get started you should first [install Docker Desktop if using Windows or MacOS](https://www.docker.com/products/docker-desktop) or [Docker Engine Community](https://docs.docker.com/install/linux/docker-ce/ubuntu/) if using Linux. 
 
 Once Docker is installed in your laptop, you should...
 
@@ -46,7 +46,7 @@ Open a terminal and issue the command
 
 This should take a while because >2GB of software will be downloaded and installed.
 
-> Pro tip: if you add your user to the `docker` group, you do not need to use `sudo` to run Docker. The command to perform this task on linux is `sudo usermod -a -G docker yourusername` (you only need to run it once)
+> Linux pro tip: if you add your user to the `docker` group, you do not need to use `sudo` to run Docker . The command to perform this task on linux is `sudo usermod -a -G docker yourusername` (you only need to run it once)
 
 ## 3. Download the supporting files for the lesson
 
@@ -64,11 +64,11 @@ i. Launch Docker in your computer.
 - Linux: the Docker service should already be running in the background, so no action required.
 - Mac/Windows: Look for the Docker icon in your computer and click on it to open the application. ![](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png "Docker icon")
 
-ii. `cd` to the `fermi` directory which contains the lesson files and where we plan to run our analysis. 
+ii. `cd fermi` to the directory which contains the lesson files and where we plan to run our analysis. 
 
 iii. Launch a docker container instance.
 
-Run the following command in a new terminal:
+Run the following command in the terminal:
 
 ```
 sudo docker run -it --rm -p 8888:8888 -v $PWD:/workdir -w /workdir fermipy/fermipy:11-05-02
@@ -102,4 +102,4 @@ sudo docker run -it --rm -v $PWD:/workdir -w /workdir fermipy/fermipy /bin/bash
 
 If you interrupt the activity and want to resume it later, just make sure to launch the Docker container instance inside the `fermi` directory. All your progress will be saved there.
 
-Now you can proceed with the lesson and move on to the introduction to the hands-on activities (TBD).
+Now you can proceed with the lesson.
