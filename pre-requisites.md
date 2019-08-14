@@ -59,9 +59,9 @@ You will need `wget` installed in order to proceed. Issue the following commands
 
 After the command is done, you should have all files which are necessary for the lesson available locally in your machine.
 
-## 4. Launch a Docker container instance
+## 4. Test the installation by launching a Docker container instance
 
-i. Launch Docker in your computer. 
+i. Open Docker. 
 
 - Linux: the Docker service should already be running in the background, so no action required.
 - Mac/Windows: Look for the Docker icon in your computer and click on it to open the application. ![](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png "Docker icon")
@@ -81,13 +81,13 @@ This will start a Jupyter notebook server that will be attached to port 8888. Th
 ```
     Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
-        http://721f57bdddfd:8888/?token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5&token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5
+        http://localhost:8888/?token=8e09274cb649d659abce695ab6481242670d9edbcf24f095
 ```
 
-iv. Copy and paste the address above in your web browser, and replace the string between `http://` and `:8888` with `localhost`; in our case, we would use the following address in our browser (your address will be different):
+iv. Copy and paste the http address printed in the above step in your web browser (your address will be different):
 
 ```     
-http://localhost:8888/?token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5&token=36376320b1d20c0937deaf606d6a8134be8c54d3cf0fa5f5
+http://localhost:8888/?token=8e09274cb649d659abce695ab6481242670d9edbcf24f095
 ```
 
 Your browser should now display something similar to this: ![](./Screenshot-jupyter.png "Web browser after successful launching of Jupyter Notebook from Docker instance")

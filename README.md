@@ -15,9 +15,10 @@ Welcome to the *Fermi* LAT hands-on tutorial on the analysis of gamma-ray observ
 This activity has a total duration of about 4 hours and is organized as follows:
 
 1. [Download and install](./pre-requisites.md) required software and data files *before the lesson starts*
-2. Overview of *Fermi* Gamma-ray Telescope ([slides](https://speakerdeck.com/rsnemmen/overview-of-fermi-gamma-ray-telescope))
-3. Hands-on activity 1: Estimating dark matter cross section from Fermi LAT observations
-4. Hands-on activity 2: The gamma-ray spectrum and light curve of a blazar 
+2. Presentation: Overview of the *Fermi* Gamma-ray Telescope ([slides](https://speakerdeck.com/rsnemmen/overview-of-fermi-gamma-ray-telescope))
+3. To follow the tutorial, first [launch the analysis environment](./pre-requisites.md#4-launch-a-docker-container-instance)
+4. Hands-on activity 1: Estimating dark matter cross section from *Fermi* LAT observations
+5. Hands-on activity 2: The gamma-ray spectrum and light curve of a blazar 
 
 # Authors / contact 
 
