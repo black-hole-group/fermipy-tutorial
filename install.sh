@@ -20,19 +20,10 @@ echo
 #echo "Downloaded dark matter files"
 #echo
 # blazar lesson data
-#mkdir -p ./fermipy-tutorial/data/blazar
-#wget -O ./fermipy-tutorial/data/blazar-data.tar.bz2 https://www.dropbox.com/s/96t6rbl9gguhz9x/blazar-data.tar.bz2?dl=0
-#tar -xvjf ./fermipy-tutorial/data/blazar-data.tar.bz2 -C ./fermipy-tutorial/data/blazar
-#echo "Downloaded blazar files"
-# blazar lesson data, Fabio's conventions for file locations // must organize it better!
-mkdir -p ./fermipy-tutorial/blazar
-mkdir -p ./fermipy-tutorial/data/blazar
-wget -O ./fermipy-tutorial/data/blazar.tar.bz2 https://www.dropbox.com/s/9uk4kbxymaj54ks/blazar.tar.bz2?dl=0
-tar -xvjf ./fermipy-tutorial/data/blazar.tar.bz2 -C ./fermipy-tutorial/blazar
-wget -O ./fermipy-tutorial/data/data_blazar.tar.bz2 https://www.dropbox.com/s/uom4dwtquf7uikp/data_blazar.tar.bz2?dl=0
-tar -xvjf ./fermipy-tutorial/data/data_blazar.tar.bz2 -C ./fermipy-tutorial/data/blazar
+wget -O ./fermipy-tutorial/data/blazar.tar.bz2 https://www.dropbox.com/s/eo694u3yph9n877/blazar.tar.bz2?dl=0
+tar -xvjf ./fermipy-tutorial/data/blazar.tar.bz2 -C ./fermipy-tutorial
 echo "Downloaded blazar files"
-
+echo
 
 echo "Done! :) "
 
